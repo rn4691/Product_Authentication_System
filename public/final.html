@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Description</title>
+    <link rel="icon" href="icon.jpg" type="image/x-icon" />
+  </head>
+  <style>
+    body {
+      padding: 150px 450px;
+      background-color: rgb(20, 20, 20);
+      background-image: url(back.jpg);
+      /* height: 750px; */
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .formdesign input {
+      width: 1000px;
+      padding: 12px 20px;
+      border: 3px solid lightseagreen;
+      margin: 14px;
+      border-radius: 4px;
+      font-size: 15px;
+    }
+
+    h1 {
+      color: #08f0f0;
+      text-align: center;
+      font-weight: 700;
+      font-size: 20;
+    }
+
+    .formdesign {
+      color: #ddda15;
+      font-size: large;
+    }
+  </style>
+
+  <body>
+    <div>
+      <h1>Product Description!</h1>
+      <div class="formdesign">
+        Product Name:
+        <input
+        type="text"
+        placeholder="Product Name"
+        class="product_name"
+        />
+      </div>
+      <br />
+      <div class="formdesign">
+        Unique Code:
+        <input
+        type="number"
+        placeholder="Unique Code"
+        class="code"
+        />
+      </div>
+      <br />
+      <div class="formdesign">
+        Email Id:
+        <input type="email" name="email" id="email" placeholder="Your email" />
+      </div>
+      <br />
+      <div class="formdesign">
+        Size:
+        <input
+        type="number"
+        placeholder="Size"
+        class="size"
+        />
+      </div>
+      <br />
+      <div class="formdesign">
+        Colour:
+        <input
+        type="text"
+        placeholder="Colour"
+        class="colour"
+        />
+      <br />
+      <div class="formdesign">
+        Country of Manufacture:
+        <input
+          type="text"
+          class="country"
+          placeholder="Country of Manufacture"
+        />
+        <error id="alert"></error>
+      </div>
+    </div>
+    <script src="js/final.js"></script>
+  </body>
+</html>
